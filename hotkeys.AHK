@@ -23,5 +23,6 @@ return
 $2 Up::Click up
 3::Click, Middle
 4::Click, Right
+p::sendinput, Niteco@1996
 #UseHook Off 
 #If
