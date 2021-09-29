@@ -5,8 +5,8 @@ w::up
 s::down
 a::left
 d::right
-z::Browser_Back
-x::Browser_Forward
+z::Send !{Left}
+x::Send !{Right}
 q::Home
 e::End
 t::Volume_Up
@@ -21,8 +21,23 @@ $2::
  }
 return
 $2 Up::Click up
+$v::
+ {
+   Click down
+   keywait, 2
+ }
+return
+$v Up::Click up
 3::Click, Middle
 4::Click, Right
-p::sendinput, Niteco@1996
+p::sendinput, Niteco@1997
 #UseHook Off 
 #If
+$F1::
+ {
+   Click down
+   keywait, F1
+ }
+return
+$F1 Up::Click up
+F2::Click, Middle
