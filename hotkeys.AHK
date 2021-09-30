@@ -32,12 +32,3 @@ $v Up::Click up
 4::Click, Right
 p::sendinput, Niteco@1997
 #UseHook Off 
-#If
-$F1::
- {
-   Click down
-   keywait, F1
- }
-return
-$F1 Up::Click up
-F2::Click, Middle
