@@ -30,5 +30,5 @@ return
 $v Up::Click up
 3::Click, Middle
 4::Click, Right
-p::sendinput, Niteco@1997
+p::sendinput, Niteco@1998
 #UseHook Off 
